@@ -1,0 +1,46 @@
+<!-- Created with build.ps1 by Mark E. Kraus --> 
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd"> 
+    <moduleName>Sentient Chairs of Skyrim (SCOS)</moduleName> 
+    <installSteps order="Explicit"> 
+        <installStep name="Install"> 
+            <optionalFileGroups order="Explicit"> 
+                <group name="Main" type="SelectExactlyOne"> 
+                    <plugins order="Explicit">
+                        <plugin name="MarkekrausSentientChairsOfSkyrim.esp">
+                            <description>Adds a race of sentient chairs native to Skyrim.</description>
+                            <image path="logo.png" />
+                            <files>
+                                <file source="MarkekrausSentientChairsOfSkyrim.esp" destination="MarkekrausSentientChairsOfSkyrim.esp" priority="0" />
+                                <file source="MarkekrausSentientChairsOfSkyrim.bsa" destination="MarkekrausSentientChairsOfSkyrim.bsa" priority="0" />
+                            </files>
+                            <typeDescriptor>
+                                <type name="Optional"/>
+                            </typeDescriptor>
+                        </plugin>
+                    </plugins> 
+                </group> 
+                <group name="Install Script Sources?" type="SelectExactlyOne"> 
+                    <plugins order="Explicit"> 
+                        <plugin name="No (Default)"> 
+                            <description>Skips installing script sources.</description>
+                            <image path="logo.png" />
+                            <files></files>
+                        <typeDescriptor> 
+                            <type name="Optional"/> 
+                        </typeDescriptor> 
+                        </plugin>
+                        <plugin name="Yes (For Mod Developers)"> 
+                            <description>Installs script sources.</description>
+                            <image path="logo.png" />
+                            <files>
+                            </files>
+                            <typeDescriptor> 
+                                <type name="Optional"/> 
+                            </typeDescriptor> 
+                        </plugin> 
+                    </plugins> 
+                </group> 
+            </optionalFileGroups> 
+        </installStep> 
+    </installSteps> 
+</config>

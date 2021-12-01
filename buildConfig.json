@@ -1,0 +1,17 @@
+{
+  "SkyrimSEInstallPath": "D:\\Steam\\steamapps\\common\\Skyrim Special Edition",
+  "UnfuzerPath": "D:\\Steam\\steamapps\\common\\Skyrim Special Edition\\Tools\\unfuzer",
+  "ModInfo": {
+    "Name": "Sentient Chairs of Skyrim (SCOS)",
+    "Version": "0.0.1",
+    "Author": "Mark E. Kraus",
+    "Description": "Adds a race of sentient chairs native to Skyrim.",
+    "Website": "https://www.nexusmods.com/skyrimspecialedition/mods/59196",
+    "Category": "NPC",
+    "Logo": "logo.png"
+  },
+  "Plugin":"MarkekrausSentientChairsOfSkyrim.esp",
+  "Scripts": [
+  ],
+  "PackageName": "MarkekrausSentientChairsOfSkyrimSE.7z"
+}
