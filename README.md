@@ -9,7 +9,7 @@ My mods:
 * [Cheat Jewelry](https://www.nexusmods.com/skyrimspecialedition/mods/58973)
 * [Cheat Powers](https://www.nexusmods.com/skyrimspecialedition/mods/58892)
 * [Exit Combat Power](https://www.nexusmods.com/skyrimspecialedition/mods/58651)
-* [Sentient Chairs of Skyrim (SCOS)](https://www.nexusmods.com/skyrimspecialedition/mods/59196)
+* [Sentient Chairs of Skyrim (SCOS)](https://www.nexusmods.com/skyrimspecialedition/mods/59604)
 
 ## About Sentient Chairs of Skyrim (SCOS)
 
