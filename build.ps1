@@ -76,6 +76,8 @@ $BsaPath = Join-Path $SkyrimDataPath $BsaName
 
 $VoiceBasePath = Join-Path $SkyrimDataPath 'Sound' 'Voice','MarkekrausSentientChairsOfSkyrim.esp'
 
+$SkyrimSeqPath = Join-Path $SkyrimDataPath 'Seq'
+
 Write-Host @"
 
 BasePath:               $BasePath
@@ -88,6 +90,7 @@ SkyrimInstallPath:      $SkyrimInstallPath
 SkyrimDataPath:         $SkyrimDataPath
 SkyrimScriptPath:       $SkyrimScriptPath
 SkyrimScriptSourcePath: $SkyrimScriptSourcePath
+SkyrimSeqPath:          $SkyrimSeqPath
 ArchivePath:            $ArchivePath
 VoiceBasePath:          $VoiceBasePath
 FuzExtractorPath:       $FuzExtractorPath
@@ -262,6 +265,15 @@ if(Test-Path $VoiceBasePath) {
         $BsaFiles.Add($RelPath)
     }
     Pop-Location
+}
+
+$SeqFileName = [System.IO.Path]::GetFileNameWithoutExtension($Plugin) + '.seq'
+$SeqFilePath = Join-Path $SkyrimSeqPath $SeqFileName
+$SeqFilePathRel = "Seq\" + $SeqFileName
+if (Test-Path $SeqFilePath) {
+    $null = New-Item -ItemType Directory -Name "Seq" -Force
+    Copy-Item $SeqFilePath -Destination "Seq" -Force
+    $BsaFiles.Add($SeqFilePathRel)
 }
 
 Write-Host @"

@@ -17,7 +17,7 @@ This mod adds a sentient race of chairs to the world of Skyrim.
 
 This mod is intended to add a bit of humor to the game. It started as a joke between friends, but after rigging up a demo of a sentient chair and laughing hard, I decided to make this into a full mod.
 
-Currently, there are only 2 voiced NPCs. I plan to add more Chair NPCs, a few quests, and possibly a dungeon.
+Currently, there are only 2 voiced NPCs and a mini quest. I plan to add more Chair NPCs, a few quests, and possibly a dungeon.
 
 ## Sentient Chair Lore
 
@@ -31,8 +31,8 @@ Unfortunately, Nords hunted Chairs as trophies to near extinction. Few chairs fr
 
 ## Sentient Chair NPCs
 
-* Chairman Testerton (Winterhold - Frozen Hearth Inn Cellar)
-* Chase (Whiterun - Dragonsreach )
+* Chairman Needlecushion (Winterhold - Frozen Hearth Inn)
+* Thurston Snugglebottoms (Whiterun - Dragonsreach )
 
 ## Installation
 
@@ -60,13 +60,15 @@ This mod should be placed somewhere after the [Unofficial Skyrim Special Edition
 
 ## User Guide
 
-Visit the NPCs and have a chat!
+Visit the NPCs, have a chat, interact with them!
 
 ## Compatibility
 
 This mod should be compatible with everything. However, any mods which change vanilla chair meshes may change the look of the Chair NPCs in unexpected ways.
 
 If there is a particular NPC behavior mod that you would like this mod to be affected by, request it in the discussion. This mod should be compatible with any of them, but Chair NPCs may not be completely affected.
+
+I have confirmed the NPCs in this mod can be controlled by [Amazing Follower Tweaks SE](https://www.nexusmods.com/skyrimspecialedition/mods/6656). If you want to add the Sentient Chairs as followers, I suggest using AFT.
 
 ## Warning: Not Lore-Friendly and Swearing
 

@@ -33,6 +33,13 @@
                             <description>Installs script sources.</description>
                             <image path="logo.png" />
                             <files>
+                                <file source="source\scripts\MEKSCOSNoteTriggerQuest.psc" destination="source\scripts\MEKSCOSNoteTriggerQuest.psc" priority="0" />
+                                <file source="source\scripts\QF_MEKSCOSQuestSentientChair_0607A1ED.psc" destination="source\scripts\QF_MEKSCOSQuestSentientChair_0607A1ED.psc" priority="0" />
+                                <file source="source\scripts\MEKSCOSTIF__06023F14.psc" destination="source\scripts\MEKSCOSTIF__06023F14.psc" priority="0" />
+                                <file source="source\scripts\MEKSCOSTIF__06023F15.psc" destination="source\scripts\MEKSCOSTIF__06023F15.psc" priority="0" />
+                                <file source="source\scripts\MEKSCOSTIF__06023F16.psc" destination="source\scripts\MEKSCOSTIF__06023F16.psc" priority="0" />
+                                <file source="source\scripts\MEKSCOSTIF__0607A1F3.psc" destination="source\scripts\MEKSCOSTIF__0607A1F3.psc" priority="0" />
+                                <file source="source\scripts\MEKSCOSSnugglebottomsDeath.psc" destination="source\scripts\MEKSCOSSnugglebottomsDeath.psc" priority="0" />
                             </files>
                             <typeDescriptor> 
                                 <type name="Optional"/> 
