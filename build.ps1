@@ -299,7 +299,12 @@ Set File Group Root: Data\
 Add File Group: $BsaFilesFile
 Save Archive: Data\$BsaName
 "@ | Set-Content $BsaScriptFile -Encoding utf8NoBOM
-& $ArchiveCmd $BsaScriptFile
+if (Test-Path $BsaPath) {
+    "Backing up existing BSA..."
+    Remove-Item -Path "$BsaPath.bak" -Force
+    Rename-Item -Path $BsaPath -NewName "$BsaName.bak" -Force
+}
+Start-Process -Wait -FilePath $ArchivePath -ArgumentList $BsaScriptFile -WorkingDirectory $SkyrimInstallPath
 Pop-Location
 Copy-Item -Path $BsaPath -Destination $BasePath -Force
 $7zFiles.Add($BsaName)
@@ -363,7 +368,7 @@ foreach ($file in $7zFiles) {
     Write-Host $file
 }
 
-Remove-Item -Path $Config.PackageName -Force -ErrorAction SilentlyContinue
+Remove-Item -Path $Config.PackageName -Force -ErrorAction SilentlyContinue 
 7za.exe a -t7z $Config.PackageName $7zFiles
 
 Pop-Location

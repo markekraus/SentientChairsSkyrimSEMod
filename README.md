@@ -17,7 +17,7 @@ This mod adds a sentient race of chairs to the world of Skyrim.
 
 This mod is intended to add a bit of humor to the game. It started as a joke between friends, but after rigging up a demo of a sentient chair and laughing hard, I decided to make this into a full mod.
 
-Currently, there are only 2 voiced NPCs and a mini quest. I plan to add more Chair NPCs, a few quests, and possibly a dungeon.
+I plan to add more Chair NPCs, a few quests, and possibly a dungeon.
 
 ## Sentient Chair Lore
 
@@ -29,10 +29,24 @@ Sentient Chair's lineage from actual chairs has made them proficient at pickpock
 
 Unfortunately, Nords hunted Chairs as trophies to near extinction. Few chairs from the first generations survive today, and chairs in Skyrim no longer become sentient on their own. How chairs became sentient in the first place is a mystery lost to time.
 
-## Sentient Chair NPCs
+## Features
+
+### Voiced Sentient Chair NPCs
 
 * Chairman Needlecushion (Winterhold - Frozen Hearth Inn)
 * Thurston Snugglebottoms (Whiterun - Dragonsreach )
+
+### Leveled NPCs
+
+* Chair Wizard Bandits - Some chairs of Skyrim have taken to banditry and lurk anywhere you can find bandit wizards.
+
+### Loading Screens
+
+Seven (7) loading screens have been added that contain sentient chair lore and information about specific sentient chairs.
+
+### Dead Chair Loot
+
+All Sentient Chairs drop firewood and a filled black soul gem. Leveled NPCs also drop the normal loot found in similar NPCs.
 
 ## Installation
 
