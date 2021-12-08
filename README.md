@@ -39,10 +39,11 @@ Unfortunately, Nords hunted Chairs as trophies to near extinction. Few chairs fr
 ### Leveled NPCs
 
 * Chair Wizard Bandits - Some chairs of Skyrim have taken to banditry and lurk anywhere you can find bandit wizards.
+* Chair Warlocks - The magick skills of Sentient Chairs make them excellent warlocks. They practice every discipline except fire. Some of the best Storm Warlocks in Skyrim are chairs
 
 ### Loading Screens
 
-Seven (7) loading screens have been added that contain sentient chair lore and information about specific sentient chairs.
+Nine (9) loading screens have been added that contain sentient chair lore and information about specific sentient chairs.
 
 ### Dead Chair Loot
 
