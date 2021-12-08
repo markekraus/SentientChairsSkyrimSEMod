@@ -38,8 +38,15 @@ Unfortunately, Nords hunted Chairs as trophies to near extinction. Few chairs fr
 
 ### Leveled NPCs
 
-* Chair Wizard Bandits - Some chairs of Skyrim have taken to banditry and lurk anywhere you can find bandit wizards.
-* Chair Warlocks - The magick skills of Sentient Chairs make them excellent warlocks. They practice every discipline except fire. Some of the best Storm Warlocks in Skyrim are chairs
+Chair Wizard Bandits - Some chairs of Skyrim have taken to banditry and lurk anywhere you can find bandit wizards.
+
+Warlock Chairs - The magick skills of Sentient Chairs make them excellent warlocks. They practice every discipline except fire. Some of the best Storm Warlocks in Skyrim are chairs! Warlock Chairs inhabit any hovel where warlocks hone their craft.
+
+* Conjurers
+* Ice Mages
+* Necromancers
+* Storm Mages
+* Storm Mage Bosses
 
 ### Loading Screens
 
