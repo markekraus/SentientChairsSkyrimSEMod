@@ -1,4 +1,4 @@
-# Sentient Chairs of Skyrim (SCOS) (Preview)
+# Sentient Chairs of Skyrim (SCOS)
 
 ![Cheat Jewelry](logo.png)
 
@@ -25,7 +25,7 @@ In the first century following the end of the Oblivion Crisis, many chairs in Sk
 
 Chairs are nearly immortal as they are completely resistant to aging, disease, and poisons. They live as long as they remain intact. However, They can be killed. Being made of wood, they are weak to fire.
 
-Sentient Chair's lineage from actual chairs has made them proficient at pickpocketing, shock magic, and sneaking (no one suspects a chair!). Sentient chairs lack hands and cannot wield weapons. Also, the craftsmen of Skyrim have not made armor for chairs. Luckily for the chairs, they are made of sturdy wood that provides the same protection as armor.
+Sentient Chair's lineage from actual chairs has made them proficient at pickpocketing, shock magic, and sneaking (no one suspects a chair). Sentient chairs lack hands and cannot wield weapons. Also, the craftsmen of Skyrim have not made armor for chairs. Luckily for the chairs, they are made of sturdy wood that provides the same protection as armor.
 
 Unfortunately, Nords hunted Chairs as trophies to near extinction. Few chairs from the first generations survive today, and chairs in Skyrim no longer become sentient on their own. How chairs became sentient in the first place is a mystery lost to time.
 
@@ -34,7 +34,7 @@ Unfortunately, Nords hunted Chairs as trophies to near extinction. Few chairs fr
 ### Voiced Sentient Chair NPCs
 
 * Chairman Needlecushion (Winterhold - Frozen Hearth Inn)
-* Thurston Snugglebottoms (Whiterun - Dragonsreach )
+* Thurston Snugglebottoms (Whiterun - Dragonsreach)
 
 ### Leveled NPCs
 
@@ -48,9 +48,11 @@ Warlock Chairs - The magick skills of Sentient Chairs make them excellent warloc
 * Storm Mages
 * Storm Mage Bosses
 
+Forsworn Chair Shamans - In 4E 174, Sentient Chairs of The Reach joined the Forsworn uprising. Many Reach chairs are still loyal Forsworn to this day. Forsworn Chairs serve as Shamans in Forsworn encampments. Some have even become Forsworn Warlords.
+
 ### Loading Screens
 
-Nine (9) loading screens have been added that contain sentient chair lore and information about specific sentient chairs.
+Ten (10) loading screens have been added that contain sentient chair lore and information about specific sentient chairs.
 
 ### Dead Chair Loot
 
@@ -86,7 +88,9 @@ Visit the NPCs, have a chat, interact with them!
 
 ## Compatibility
 
-This mod should be compatible with everything. However, any mods which change vanilla chair meshes may change the look of the Chair NPCs in unexpected ways.
+This mod should be compatible with everything. However, any mods that change vanilla chair meshes may unexpectedly change the Chair NPCs' look.
+
+Mods that change the leveled enemies lists might have issues. Therefore, I recommend installing this mod before other mods so those mods overwrite the behavior of this mod. This may result in chairs not spawning as leveled enemies.
 
 If there is a particular NPC behavior mod that you would like this mod to be affected by, request it in the discussion. This mod should be compatible with any of them, but Chair NPCs may not be completely affected.
 
@@ -94,8 +98,6 @@ I have confirmed the NPCs in this mod can be controlled by [Amazing Follower Twe
 
 ## Warning: Not Lore-Friendly and Swearing
 
-This mod should be compatible with everything. However, any mods which change vanilla chair meshes may change the look of the Chair NPCs in an unexpected way.
-
-If there is a particular NPC behavior mod that you would like this mod to be affected by, request it in the discussion. This mod should be compatible with any of them, but Chair NPCs may not be completely affected.
+This mod is technically not lore-friendly. However, the lore in this mod does not re-write any lore in the game. Instead, it adds sentient chair lore to the existing lore. Sentient chair lore attempts to be consistent within itself and with existing lore.
 
 The dialogue in this mod may contain language that may not be appropriate for all audiences.
