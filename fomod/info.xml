@@ -1,9 +1,9 @@
 <fomod>
     <Name>Sentient Chairs of Skyrim (SCOS)</Name>
     <Author>Mark E. Kraus</Author>
-    <Version>1.3.0</Version>
+    <Version>2.0.0</Version>
     <Website>https://www.nexusmods.com/skyrimspecialedition/mods/59604</Website>
-    <Description>Adds a race of sentient chairs native to Skyrim.</Description>
+    <Description>Adds a race of Sentient Chairs native to Skyrim.</Description>
     <Groups>
         <element>NPC</element>
     </Groups>

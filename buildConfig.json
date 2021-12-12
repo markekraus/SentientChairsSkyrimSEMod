@@ -3,9 +3,9 @@
   "UnfuzerPath": "D:\\Steam\\steamapps\\common\\Skyrim Special Edition\\Tools\\unfuzer",
   "ModInfo": {
     "Name": "Sentient Chairs of Skyrim (SCOS)",
-    "Version": "1.3.0",
+    "Version": "2.0.0",
     "Author": "Mark E. Kraus",
-    "Description": "Adds a race of sentient chairs native to Skyrim.",
+    "Description": "Adds a race of Sentient Chairs native to Skyrim.",
     "Website": "https://www.nexusmods.com/skyrimspecialedition/mods/59604",
     "Category": "NPC",
     "Logo": "logo.png"
@@ -13,11 +13,11 @@
   "Plugin":"MarkekrausSentientChairsOfSkyrim.esp",
   "Scripts": [
     "MEKSCOSNoteTriggerQuest",
-    "QF_MEKSCOSQuestSentientChair_0607A1ED",
-    "MEKSCOSTIF__06023F14",
-    "MEKSCOSTIF__06023F15",
-    "MEKSCOSTIF__06023F16",
-    "MEKSCOSTIF__0607A1F3",
+    "QF_MEKSCOSQuestSentientChair_06000A14",
+    "MEKSCOSTIF__06000A05",
+    "MEKSCOSTIF__06000884",
+    "MEKSCOSTIF__06000885",
+    "MEKSCOSTIF__06000886",
     "MEKSCOSSnugglebottomsDeath"
   ],
   "PackageName": "MarkekrausSentientChairsOfSkyrimSE.7z"

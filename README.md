@@ -50,9 +50,11 @@ Warlock Chairs - The magick skills of Sentient Chairs make them excellent warloc
 
 Forsworn Chair Shamans - In 4E 174, Sentient Chairs of The Reach joined the Forsworn uprising. Many Reach chairs are still loyal Forsworn to this day. Forsworn Chairs serve as Shamans in Forsworn encampments. Some have even become Forsworn Warlords.
 
+Giant Chairs - When chairs gained sentience through absorbing souls, some chairs absorbed the souls of Giants. Aside from being much larger, giant sentient chairs differ from others by wielding giant clubs through magick. Giant Chairs are rare but can be found among the giant camps and migration paths.
+
 ### Loading Screens
 
-Ten (10) loading screens have been added that contain sentient chair lore and information about specific sentient chairs.
+Eleven (11) loading screens have been added that contain sentient chair lore and information about specific sentient chairs.
 
 ### Dead Chair Loot
 
