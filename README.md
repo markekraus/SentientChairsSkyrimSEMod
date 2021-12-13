@@ -15,6 +15,8 @@ My mods:
 
 This mod adds a sentient race of chairs to the world of Skyrim.
 
+The ESP for this mod is an ESP-FE.
+
 This mod is intended to add a bit of humor to the game. It started as a joke between friends, but after rigging up a demo of a sentient chair and laughing hard, I decided to make this into a full mod.
 
 I plan to add more Chair NPCs, a few quests, and possibly a dungeon.
