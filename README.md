@@ -54,6 +54,8 @@ Forsworn Chair Shamans - In 4E 174, Sentient Chairs of The Reach joined the Fors
 
 Giant Chairs - When chairs gained sentience through absorbing souls, some chairs absorbed the souls of Giants. Aside from being much larger, giant sentient chairs differ from others by wielding giant clubs through magick. Giant Chairs are rare but can be found among the giant camps and migration paths.
 
+Chair Hardness - Chairs have a natural armor that scales with the quality of the chair. The Dragonborn will encounter common wooden chairs with armor rating equivalent to a full set of iron armor at lower levels. The Dragonborn will encounter great thrones with armor ratings equivalent to a full set of Daedric armor at higher levels.
+
 ### Loading Screens
 
 Eleven (11) loading screens have been added that contain sentient chair lore and information about specific sentient chairs.
