@@ -37,6 +37,7 @@ Unfortunately, Nords hunted Chairs as trophies to near extinction. Few chairs fr
 
 * Chairman Needlecushion (Winterhold - Frozen Hearth Inn)
 * Thurston Snugglebottoms (Whiterun - Dragonsreach)
+* Herman Miller (Whiterun - Herman Miller Stables)
 
 ### Leveled NPCs
 
@@ -55,6 +56,14 @@ Forsworn Chair Shamans - In 4E 174, Sentient Chairs of The Reach joined the Fors
 Giant Chairs - When chairs gained sentience through absorbing souls, some chairs absorbed the souls of Giants. Aside from being much larger, giant sentient chairs differ from others by wielding giant clubs through magick. Giant Chairs are rare but can be found among the giant camps and migration paths.
 
 Chair Hardness - Chairs have a natural armor that scales with the quality of the chair. The Dragonborn will encounter common wooden chairs with armor rating equivalent to a full set of iron armor at lower levels. The Dragonborn will encounter great thrones with armor ratings equivalent to a full set of Daedric armor at higher levels.
+
+### Chair Horses
+
+Herman Miller descends from a long line of Skyrim hostlers. When the chairs of Skyrim began to absorb souls and become sentient, the Millers were able to create Chair Horses.
+
+Chair Horses were rare to begin with and now Herman Miller has a single Chair Horse for sale at his stables outside of Whiterun near the Battle-Born Farm.
+
+Herman Miller can also teach you a spell to change the style of your Chair Horse.
 
 ### Loading Screens
 

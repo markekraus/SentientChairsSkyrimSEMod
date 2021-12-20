@@ -40,6 +40,9 @@
                                 <file source="source\scripts\MEKSCOSTIF__06000885.psc" destination="source\scripts\MEKSCOSTIF__06000885.psc" priority="0" />
                                 <file source="source\scripts\MEKSCOSTIF__06000886.psc" destination="source\scripts\MEKSCOSTIF__06000886.psc" priority="0" />
                                 <file source="source\scripts\MEKSCOSSnugglebottomsDeath.psc" destination="source\scripts\MEKSCOSSnugglebottomsDeath.psc" priority="0" />
+                                <file source="source\scripts\MEKSCOSMESetChairOutfitScript.psc" destination="source\scripts\MEKSCOSMESetChairOutfitScript.psc" priority="0" />
+                                <file source="source\scripts\MEKSCOSTIF__06000AA6.psc" destination="source\scripts\MEKSCOSTIF__06000AA6.psc" priority="0" />
+                                <file source="source\scripts\MEKSCOSTIF__06000AAA.psc" destination="source\scripts\MEKSCOSTIF__06000AAA.psc" priority="0" />
                             </files>
                             <typeDescriptor> 
                                 <type name="Optional"/> 

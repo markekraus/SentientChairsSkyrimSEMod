@@ -18,7 +18,13 @@
     "MEKSCOSTIF__06000884",
     "MEKSCOSTIF__06000885",
     "MEKSCOSTIF__06000886",
-    "MEKSCOSSnugglebottomsDeath"
+    "MEKSCOSSnugglebottomsDeath",
+    "MEKSCOSMESetChairOutfitScript",
+    "MEKSCOSTIF__06000AA6",
+    "MEKSCOSTIF__06000AAA"
+  ],
+  "Meshes": [
+    "actors\\chair\\character assets\\chairhorseskeleton.nif"
   ],
   "PackageName": "MarkekrausSentientChairsOfSkyrimSE.7z"
 }

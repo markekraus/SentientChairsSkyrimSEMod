@@ -74,7 +74,10 @@ $PluginPath = Join-Path $SkyrimDataPath $Plugin
 $BsaName = [System.IO.Path]::GetFileNameWithoutExtension($Plugin) + '.bsa'
 $BsaPath = Join-Path $SkyrimDataPath $BsaName
 
-$VoiceBasePath = Join-Path $SkyrimDataPath 'Sound' 'Voice','MarkekrausSentientChairsOfSkyrim.esp'
+$VoiceBasePath = Join-Path $SkyrimDataPath 'Sound' 'Voice',$Plugin
+$MeshesBasePath = Join-Path $SkyrimDataPath 'Meshes'
+$FaceGenMeshPath = Join-Path $SkyrimDataPath 'Meshes' 'Actors','character','FaceGenData','FaceGeom',$Plugin
+$FaceGenTexturePath = Join-Path $SkyrimDataPath 'Textures' 'Actors','character','FaceGenData','FaceTint',$Plugin
 
 $SkyrimSeqPath = Join-Path $SkyrimDataPath 'Seq'
 
@@ -92,7 +95,10 @@ SkyrimScriptPath:       $SkyrimScriptPath
 SkyrimScriptSourcePath: $SkyrimScriptSourcePath
 SkyrimSeqPath:          $SkyrimSeqPath
 ArchivePath:            $ArchivePath
+MeshesBasePath:         $MeshesBasePath
 VoiceBasePath:          $VoiceBasePath
+FaceGenMeshPath:        $FaceGenMeshPath
+FaceGenTexturePath:     $FaceGenTexturePath
 FuzExtractorPath:       $FuzExtractorPath
 XWmaEncodePath:         $XWmaEncodePath
 PluginPath:             $PluginPath
@@ -274,6 +280,43 @@ if (Test-Path $SeqFilePath) {
     $null = New-Item -ItemType Directory -Name "Seq" -Force
     Copy-Item $SeqFilePath -Destination "Seq" -Force
     $BsaFiles.Add($SeqFilePathRel)
+}
+
+if(Test-Path $FaceGenMeshPath) {
+    $DataRelativeFaceGenMeshPath = [Io.Path]::GetRelativePath($SkyrimDataPath, $FaceGenMeshPath)
+    $LocalFaceGenMeshPath = [Io.Path]::Combine($BasePath, $DataRelativeFaceGenMeshPath)
+    $null = New-Item -ItemType Directory -Path $LocalFaceGenMeshPath -Force
+    foreach ($FaceGenFile in (Get-ChildItem $FaceGenMeshPath)) {
+        if ($FaceGenFile.Extension -imatch '\.tga' ) { return }
+        Copy-Item -Path $FaceGenFile.FullName -Destination $LocalFaceGenMeshPath -Force
+        $RelPath = [Io.Path]::GetRelativePath($SkyrimDataPath, $FaceGenFile)
+        $BsaFiles.Add($RelPath)
+    }
+}
+
+if(Test-Path $FaceGenTexturePath) {
+    $DataRelativeFaceGenTexturePath = [Io.Path]::GetRelativePath($SkyrimDataPath, $FaceGenTexturePath)
+    $LocalFaceGenTexturePath = [Io.Path]::Combine($BasePath, $DataRelativeFaceGenTexturePath)
+    $null = New-Item -ItemType Directory -Path $LocalFaceGenTexturePath -Force
+    foreach ($FaceGenFile in (Get-ChildItem $FaceGenTexturePath)) {
+        if ($FaceGenFile.Extension -imatch '\.tga' ) { return }
+        Copy-Item -Path $FaceGenFile.FullName -Destination $LocalFaceGenTexturePath -Force
+        $RelPath = [Io.Path]::GetRelativePath($SkyrimDataPath, $FaceGenFile)
+        $BsaFiles.Add($RelPath)
+    }
+}
+
+foreach ($MeshFilePart in $Config.Meshes) {
+    $MeshFileFull = Join-Path $MeshesBasePath $MeshFilePart
+    if(Test-Path $MeshFileFull){
+        $MeshFile = Get-Item $MeshFileFull
+        $DataRelativeMeshPath = [Io.Path]::GetRelativePath($SkyrimDataPath, $MeshFile.Directory.FullName)
+        $LocalMeshPath = [Io.Path]::Combine($BasePath, $DataRelativeMeshPath)
+        $null = New-Item -ItemType Directory -Path $LocalMeshPath -Force
+        $MeshFile | Copy-Item -Destination $LocalMeshPath -Force
+        $RelPath = [Io.Path]::GetRelativePath($SkyrimDataPath, $MeshFile)
+        $BsaFiles.Add($RelPath)
+    }
 }
 
 Write-Host @"
