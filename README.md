@@ -33,10 +33,15 @@ Unfortunately, Nords hunted Chairs as trophies to near extinction. Few chairs fr
 
 ## Features
 
-### Voiced Sentient Chair NPCs
+### Voiced NPCs
+
+Sentient Chairs
 
 * Chairman Needlecushion (Winterhold - Frozen Hearth Inn)
 * Thurston Snugglebottoms (Whiterun - Dragonsreach)
+
+Other
+
 * Herman Miller (Whiterun - Herman Miller Stables)
 
 ### Leveled NPCs

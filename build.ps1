@@ -247,22 +247,34 @@ if(Test-Path $VoiceBasePath) {
     foreach ($WavFile in (Get-ChildItem -Recurse -Filter '*.wav')) {
         $DataRelativeVoiceFolder = [Io.Path]::GetRelativePath($SkyrimDataPath, $WavFile.Directory)
         $LocalVoiceFolder = [Io.Path]::Combine($BasePath, $DataRelativeVoiceFolder)
-        $null = New-Item -ItemType Directory -Path $LocalVoiceFolder -Force
-        Copy-Item -Path $WavFile -Destination $LocalVoiceFolder -Force 
         Push-Location $WavFile.Directory
         Write-Host ([Io.Path]::GetRelativePath($VoiceBasePath, $WavFile))
         $XWmaFile = $WavFile.BaseName + '.xwm'
         $LipFile = $WavFile.BaseName + '.lip'
         $FuzFile = $WavFile.BaseName + '.fuz'
+        $HashFile = $WavFile.BaseName + '.hash'
+        $currentHash = (Get-FileHash $WavFile -Algorithm SHA256).Hash
+        if ((Test-Path $HashFile) -and (Test-Path $FuzFile)) {
+            $oldHash = Get-Content $HashFile -TotalCount 1
+            if ($currentHash -eq $oldHash) {
+                Pop-Location
+                continue
+            }
+        }
+        else {
+            $currentHash | Set-Content -Path $HashFile -Encoding utf8BOM -NoNewline
+        }
+        $null = New-Item -ItemType Directory -Path $LocalVoiceFolder -Force
+        Copy-Item -Path $WavFile -Destination $LocalVoiceFolder -Force
         & $XWmaEncodeCmd $WavFile $XWmaFile
         if (Test-Path $LipFile) {
             Copy-Item -Path $LipFile -Destination $LocalVoiceFolder -Force
             & $FuzExtractorPath -i $FuzFile $XWmaFile /l
-            Remove-Item $LipFile -Force
+            # Remove-Item $LipFile -Force
         } else {
             & $FuzExtractorPath -i $FuzFile $XWmaFile
         }
-        Remove-Item $WavFile -Force
+        # Remove-Item $WavFile -Force
         Remove-Item $XWmaFile -Force
         Pop-Location
     }
@@ -287,7 +299,7 @@ if(Test-Path $FaceGenMeshPath) {
     $LocalFaceGenMeshPath = [Io.Path]::Combine($BasePath, $DataRelativeFaceGenMeshPath)
     $null = New-Item -ItemType Directory -Path $LocalFaceGenMeshPath -Force
     foreach ($FaceGenFile in (Get-ChildItem $FaceGenMeshPath)) {
-        if ($FaceGenFile.Extension -imatch '\.tga' ) { return }
+        if ($FaceGenFile.Extension -imatch '\.tga' ) { continue }
         Copy-Item -Path $FaceGenFile.FullName -Destination $LocalFaceGenMeshPath -Force
         $RelPath = [Io.Path]::GetRelativePath($SkyrimDataPath, $FaceGenFile)
         $BsaFiles.Add($RelPath)
@@ -299,7 +311,7 @@ if(Test-Path $FaceGenTexturePath) {
     $LocalFaceGenTexturePath = [Io.Path]::Combine($BasePath, $DataRelativeFaceGenTexturePath)
     $null = New-Item -ItemType Directory -Path $LocalFaceGenTexturePath -Force
     foreach ($FaceGenFile in (Get-ChildItem $FaceGenTexturePath)) {
-        if ($FaceGenFile.Extension -imatch '\.tga' ) { return }
+        if ($FaceGenFile.Extension -imatch '\.tga' ) { continue }
         Copy-Item -Path $FaceGenFile.FullName -Destination $LocalFaceGenTexturePath -Force
         $RelPath = [Io.Path]::GetRelativePath($SkyrimDataPath, $FaceGenFile)
         $BsaFiles.Add($RelPath)
@@ -356,7 +368,7 @@ $7zFiles.Add($BsaName)
 
 $ModuleConfigXML | Set-Content -Encoding utf8NoBOM -Path $FomodModuleConfigFile
 
-Get-ChildItem -Recurse $VoiceBasePath
+# Get-ChildItem -Recurse $VoiceBasePath
 
 $bbcode = [System.Text.StringBuilder]::New()
 $inList = $false
