@@ -63,9 +63,7 @@ $OutputScriptPath = Join-Path $BasePath 'scripts'
 $OutputScriptSourcePath = Join-Path $BasePath -ChildPath 'source' -AdditionalChildPath 'scripts'
 
 $ArchivePath = Join-Path $SkyrimInstallPath 'tools' 'archive','archive.exe'
-$ArchiveCmd = Get-Command $ArchivePath
 $FuzExtractorPath = Join-Path $Config.UnfuzerPath "Fuz_extractor.exe"
-$FuzExtractorCmd = Get-Command $FuzExtractorPath
 $XWmaEncodePath = Join-Path $Config.UnfuzerPath "xWMAEncode.exe"
 $XWmaEncodeCmd = Get-Command $XWmaEncodePath
 
@@ -257,6 +255,7 @@ if(Test-Path $VoiceBasePath) {
         if ((Test-Path $HashFile) -and (Test-Path $FuzFile)) {
             $oldHash = Get-Content $HashFile -TotalCount 1
             if ($currentHash -eq $oldHash) {
+                Write-Host "No change. Skipping..."
                 Pop-Location
                 continue
             }

@@ -3,7 +3,7 @@
   "UnfuzerPath": "D:\\Steam\\steamapps\\common\\Skyrim Special Edition\\Tools\\unfuzer",
   "ModInfo": {
     "Name": "Sentient Chairs of Skyrim (SCOS)",
-    "Version": "2.0.2",
+    "Version": "3.0.0",
     "Author": "Mark E. Kraus",
     "Description": "Adds a race of Sentient Chairs native to Skyrim.",
     "Website": "https://www.nexusmods.com/skyrimspecialedition/mods/59604",
@@ -21,7 +21,8 @@
     "MEKSCOSSnugglebottomsDeath",
     "MEKSCOSMESetChairOutfitScript",
     "MEKSCOSTIF__06000AA6",
-    "MEKSCOSTIF__06000AAA"
+    "MEKSCOSTIF__06000AAA",
+    "MEKSCOSTIF__06000B32"
   ],
   "Meshes": [
     "actors\\chair\\character assets\\chairhorseskeleton.nif"

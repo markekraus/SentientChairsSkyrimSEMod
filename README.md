@@ -68,7 +68,7 @@ Herman Miller descends from a long line of Skyrim hostlers. When the chairs of S
 
 Chair Horses were rare to begin with and now Herman Miller has a single Chair Horse for sale at his stables outside of Whiterun near the Battle-Born Farm.
 
-Herman Miller can also teach you a spell to change the style of your Chair Horse.
+Herman Miller can also teach you a spell, free of charge, to change the style of your Chair Horse. If you really want to mix it up, he also has an enchanted ring for sale that will change the style of your chair horse every 15 seconds.
 
 ### Loading Screens
 
@@ -101,6 +101,8 @@ Download and install with Vortex and the FOMOD installer will take care of the r
 ### Load Order
 
 This mod should be placed somewhere after the [Unofficial Skyrim Special Edition Patch](https://www.nexusmods.com/skyrimspecialedition/mods/266) and before any mods that change NPC behaviors.
+
+Load this mod after [Immersive Citizens - AI Overhaul SE](https://www.nexusmods.com/skyrimspecialedition/mods/173) if you have it installed. If not, there may be some AI pathing issues near Herman Miller Stables.
 
 ## User Guide
 
