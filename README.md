@@ -66,7 +66,7 @@ Chair Hardness - Chairs have a natural armor that scales with the quality of the
 
 Herman Miller descends from a long line of Skyrim hostlers. When the chairs of Skyrim began to absorb souls and become sentient, the Millers were able to create Chair Horses.
 
-Chair Horses were rare to begin with and now Herman Miller has a single Chair Horse for sale at his stables outside of Whiterun near the Battle-Born Farm.
+Chair Horses were rare, to begin with, and now Herman Miller has a single Chair Horse for sale at his stables outside of Whiterun near the Battle-Born Farm.
 
 Herman Miller can also teach you a spell, free of charge, to change the style of your Chair Horse. If you really want to mix it up, he also has an enchanted ring for sale that will change the style of your chair horse every 15 seconds.
 
