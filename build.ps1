@@ -53,6 +53,16 @@ $FomodModuleConfigFile = Join-Path $FomodBasePath "ModuleConfig.xml"
 
 $Config = Get-Content -Path $ConfigFile | ConvertFrom-Json -Depth 10
 $ModInfo = $Config.ModInfo
+if([string]::IsNullOrWhiteSpace($Config.'$schema')) {
+    Write-Error "config file is missing '`$schema'"
+    exit 1
+}
+$Schema = (Invoke-WebRequest $Config.'$schema').Content
+$SchemaIsValid = Get-Content -Path $ConfigFile -Raw | Test-Json -Schema $Schema
+if(!$SchemaIsValid) {
+    Write-Error "Invalid JSON Schema."
+    exit 1
+}
 
 $SkyrimInstallPath = $Config.SkyrimSEInstallPath
 $SkyrimDataPath = Join-Path $SkyrimInstallPath 'Data'
