@@ -100,6 +100,8 @@ Download and install with Vortex and the FOMOD installer will take care of the r
 
 ### Load Order
 
+I recommend using [LOOT - Load Order Optimisation Tool](https://www.nexusmods.com/skyrimspecialedition/mods/1918) as it will automatically place this mod in the correct load order.
+
 This mod should be placed somewhere after the [Unofficial Skyrim Special Edition Patch](https://www.nexusmods.com/skyrimspecialedition/mods/266) and before any mods that change NPC behaviors.
 
 Load this mod after [Immersive Citizens - AI Overhaul SE](https://www.nexusmods.com/skyrimspecialedition/mods/173) if you have it installed. If not, there may be some AI pathing issues near Herman Miller Stables.
