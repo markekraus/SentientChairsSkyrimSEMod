@@ -70,6 +70,21 @@ Chair Horses were rare, to begin with, and now Herman Miller has a single Chair 
 
 Herman Miller can also teach you a spell, free of charge, to change the style of your Chair Horse. If you really want to mix it up, he also has an enchanted ring for sale that will change the style of your chair horse every 15 seconds.
 
+### Chair Weapons
+
+The Nords of Skyrim hunted Sentient Chairs for their sturdiness. Some even adopted them as weapons. Chair weapons can be found on or in hostile enemies, bosses, chests, and vendors. They can be crafted and Blacksmith Forges and upgraded at grindstones.
+
+The chair weapons are warhammers, and each matches a warhammer from the base game. Each chair weapon has a different look.
+
+* Common Chair (similar to Iron Warhammer)
+* Wooden Chair (similar to Steel Warhammer)
+* Orcish Chair (similar to Orchish Warhammer)
+* Dwarven Chair (similar to Dwarven Warhammer)
+* Elven Chair (similar to Elven Warhammer)
+* Glass Throne (similar to Glass Warhammer)
+* Ebony Throne (similar to Ebony Warhammer)
+* Daedric Throne (similar to Daedric Warhammer)
+
 ### Loading Screens
 
 Eleven (11) loading screens have been added that contain sentient chair lore and information about specific sentient chairs.
@@ -82,7 +97,7 @@ All Sentient Chairs drop firewood and a filled black soul gem. Leveled NPCs also
 
 ### Requirements
 
-[Unofficial Skyrim Special Edition Patch](https://www.nexusmods.com/skyrimspecialedition/mods/266) must be installed before installing this mod.
+[Unofficial Skyrim Special Edition Patch](https://www.nexusmods.com/skyrimspecialedition/mods/266) and [Skyrim Script Extender (SKSE64)](http://skse64.silverlock.org/) both must be installed before installing this mod.
 
 ### Recommended
 
@@ -112,13 +127,19 @@ Visit the NPCs, have a chat, interact with them!
 
 ## Compatibility
 
-This mod should be compatible with everything. However, any mods that change vanilla chair meshes may unexpectedly change the Chair NPCs' look.
+This mod should be compatible with everything. However, any mods that change vanilla chair meshes/textures may unexpectedly change the Chair NPCs' look.
 
 Mods that change the leveled enemies lists might have issues. Therefore, I recommend installing this mod before other mods so those mods overwrite the behavior of this mod. This may result in chairs not spawning as leveled enemies.
 
 If there is a particular NPC behavior mod that you would like this mod to be affected by, request it in the discussion. This mod should be compatible with any of them, but Chair NPCs may not be completely affected.
 
 I have confirmed the NPCs in this mod can be controlled by [Amazing Follower Tweaks SE](https://www.nexusmods.com/skyrimspecialedition/mods/6656). If you want to add the Sentient Chairs as followers, I suggest using AFT.
+
+This mod updates several of the base game leveled lists in a way that is mostly compatible with other mods that do so. Mod load order should not matter. However, suppose other mods reset leveled item lists to master defaults. In that case, these changes will not persist and will result in Chair Weapons not being found in the world or sold by vendors.
+
+This mod is compatible with [Immersive Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/16788). No patches are required, and load order does not matter. This mod updates several leveled item lists to add the Chair Weapons where other warhammers are already present.
+
+This mod is compatible with [Valdacil's Item Sorting](https://www.nexusmods.com/skyrimspecialedition/mods/5224). No patches are required, and load order does not matter. Chair Weapons will be automatically prefixed correctly if the mod is present.
 
 ## Warning: Not Lore-Friendly and Swearing
 

@@ -4,7 +4,7 @@
   "UnfuzerPath": "D:\\Steam\\steamapps\\common\\Skyrim Special Edition\\Tools\\unfuzer",
   "ModInfo": {
     "Name": "Sentient Chairs of Skyrim (SCOS)",
-    "Version": "3.0.0",
+    "Version": "4.1.0",
     "Author": "Mark E. Kraus",
     "Description": "Adds a race of Sentient Chairs native to Skyrim.",
     "Website": "https://www.nexusmods.com/skyrimspecialedition/mods/59604",
@@ -23,10 +23,20 @@
     "MEKSCOSMESetChairOutfitScript",
     "MEKSCOSTIF__06000AA6",
     "MEKSCOSTIF__06000AAA",
-    "MEKSCOSTIF__06000B32"
+    "MEKSCOSTIF__06000B32",
+    "MEKSCOSModInitialization",
+    "MEKSCOSOnPlayerLoadGame"
   ],
   "Meshes": [
-    "actors\\chair\\character assets\\chairhorseskeleton.nif"
+    "actors\\chair\\character assets\\chairhorseskeleton.nif",
+    "weapons\\chair\\1stpersonCommonChair02.nif",
+    "weapons\\chair\\1stpersonDaedricThrone01.nif",
+    "weapons\\chair\\1stpersonDwarvenChair01.nif",
+    "weapons\\chair\\1stpersonElvenChair01.nif",
+    "weapons\\chair\\1stpersonGlassThrone01.nif",
+    "weapons\\chair\\1stpersonOrchishChair01.nif",
+    "weapons\\chair\\1stpersonThrone01.nif",
+    "weapons\\chair\\1stpersonWoodenChair01.nif"
   ],
   "PackageName": "MarkekrausSentientChairsOfSkyrimSE.7z"
 }

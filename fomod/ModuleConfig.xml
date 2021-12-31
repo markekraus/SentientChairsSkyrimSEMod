@@ -44,6 +44,8 @@
                                 <file source="source\scripts\MEKSCOSTIF__06000AA6.psc" destination="source\scripts\MEKSCOSTIF__06000AA6.psc" priority="0" />
                                 <file source="source\scripts\MEKSCOSTIF__06000AAA.psc" destination="source\scripts\MEKSCOSTIF__06000AAA.psc" priority="0" />
                                 <file source="source\scripts\MEKSCOSTIF__06000B32.psc" destination="source\scripts\MEKSCOSTIF__06000B32.psc" priority="0" />
+                                <file source="source\scripts\MEKSCOSModInitialization.psc" destination="source\scripts\MEKSCOSModInitialization.psc" priority="0" />
+                                <file source="source\scripts\MEKSCOSOnPlayerLoadGame.psc" destination="source\scripts\MEKSCOSOnPlayerLoadGame.psc" priority="0" />
                             </files>
                             <typeDescriptor> 
                                 <type name="Optional"/> 

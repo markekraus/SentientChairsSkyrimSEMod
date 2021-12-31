@@ -341,8 +341,14 @@ foreach ($MeshFilePart in $Config.Meshes) {
 }
 
 Write-Host @"
+
 Creating archive '$BsaName'...
+
+BSA Files:
 "@
+foreach ($file in $BsaFiles) {
+    Write-Host $file
+}
 
 Push-Location $SkyrimInstallPath
 $BsaFilesFile = $Plugin + ".bsafiles.txt"
@@ -414,6 +420,10 @@ if(!$SkipReadme){
         $null = $bbcode.AppendLine($Line)
     }
     $bbcode.ToString() | Set-Content -Encoding utf8NoBOM README.bbcode -NoNewline
+}
+
+if(Test-Path '3rd_Party_Notice.md'){
+    $7zFiles.Add('3rd_Party_Notice.md')
 }
 
 if(Test-Path 'LICENSE'){
