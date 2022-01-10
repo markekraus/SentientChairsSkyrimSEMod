@@ -1,0 +1,52 @@
+<?xml version='1.0'?><!-- Game is either sse, tesv, or fo4 -->
+<PapyrusProject xmlns="PapyrusProject.xsd" 
+    Flags="TESV_Papyrus_Flags.flg" 
+    Game="sse" 
+    Output="Scripts" 
+    Optimize="false" 
+    Release="false" 
+    Final="false"
+    Anonymize="true"
+    Package="true"
+    Zip="True">
+    <Variables>
+        <!-- Set the name of your mod: -->
+        <Variable Name="ModName" Value="MarkekrausSentientChairsOfSkyrim" />
+        <Variable Name="ModFolder" Value="D:\Modding\MO2\mods\Dev- Sentient Chairs of Skyrim" />
+    </Variables>
+    <Imports>
+        <Import>.\Source\Scripts</Import>
+        <Import>D:\Steam\steamapps\common\Skyrim Special Edition\Data\Source\Scripts</Import>
+        <Import>D:\Steam\steamapps\common\Skyrim Special Edition\Data\Scripts\Source</Import>
+    </Imports>
+    <Folders>
+        <Folder>.\Source\Scripts</Folder>
+    </Folders>
+    <Packages Output="@ModFolder">
+        <Package Name="@ModName" RootDir=".">
+            <Include NoRecurse="false">*.pex</Include>
+            <Include NoRecurse="false">*.seq</Include>
+            <Include NoRecurse="false">*.nif</Include>
+            <Include NoRecurse="false">*.dds</Include>
+            <Include NoRecurse="false">*.fuz</Include>
+        </Package>
+    </Packages>
+    <!-- The following section is for .zip archive. You can enable it by setting Zip="true" in the PapyrusProject -->
+    <ZipFile Name="@ModName" RootDir="." Compression="deflate" Output="@ModFolder">
+        <Include NoRecurse="true">*.esp</Include>
+        <Include NoRecurse="true">*.bsa</Include>
+        <Include NoRecurse="true">*.psc</Include>
+        <Include NoRecurse="true">fomod\info.xml</Include>
+        <Include NoRecurse="true">fomod\ModuleConfig.xml</Include>
+        <Include NoRecurse="true">logo.png</Include>
+        <Include NoRecurse="true">3rd_Party_Notice.md</Include>
+        <Include NoRecurse="true">README.md</Include>
+        <Include NoRecurse="true">LICENSE</Include>
+    </ZipFile>
+    <!-- This will remove any *.bsa files in this directory *after* the build, if there are any. Set UseInBuild="false" to disable. -->
+    <!-- 
+    <PostBuildEvent Description="Post-Build Remove BSA Files" UseInBuild="true">
+        <Command>del *.bsa</Command>
+    </PostBuildEvent>
+     -->
+</PapyrusProject>
