@@ -1,11 +1,14 @@
 # Sentient Chairs of Skyrim (SCOS)
 
-![Cheat Jewelry](logo.png)
+![Sentient Chairs of Skyrim](logo.png)
 
 A Skyrim Special Edition mod By Mark E. Kraus.
 
 My mods:
 
+* [Barstool Brawler](https://www.nexusmods.com/skyrimspecialedition/mods/61354)
+* [Chairhammers - Chair Warhammers](https://www.nexusmods.com/skyrimspecialedition/mods/61304)
+* [Chairrows - Chair Arrows](https://www.nexusmods.com/skyrimspecialedition/mods/61168)
 * [Cheat Jewelry](https://www.nexusmods.com/skyrimspecialedition/mods/58973)
 * [Cheat Powers](https://www.nexusmods.com/skyrimspecialedition/mods/58892)
 * [Exit Combat Power](https://www.nexusmods.com/skyrimspecialedition/mods/58651)
@@ -14,8 +17,6 @@ My mods:
 ## About Sentient Chairs of Skyrim (SCOS)
 
 This mod adds a sentient race of chairs to the world of Skyrim.
-
-The ESP for this mod is an ESP-FE.
 
 This mod is intended to add a bit of humor to the game. It started as a joke between friends, but after rigging up a demo of a sentient chair and laughing hard, I decided to make this into a full mod.
 
@@ -66,7 +67,7 @@ Chair Hardness - Chairs have a natural armor that scales with the quality of the
 
 Herman Miller descends from a long line of Skyrim hostlers. When the chairs of Skyrim began to absorb souls and become sentient, the Millers were able to create Chair Horses.
 
-Chair Horses were rare, to begin with, and now Herman Miller has a single Chair Horse for sale at his stables outside of Whiterun near the Battle-Born Farm.
+Chair Horses were rare, to begin with, and now Herman Miller has a single Chair Horse for sale at his stables outside of Whiterun near the Battle-Born Farm. After purchasing a Chair Horse, you will learn the "Summon Chair Horse" spell which will summon your Chair Horse to your current location.
 
 Herman Miller can also teach you a spell, free of charge, to change the style of your Chair Horse. If you really want to mix it up, he also has an enchanted ring for sale that will change the style of your chair horse every 15 seconds.
 
@@ -78,7 +79,7 @@ The chair weapons are warhammers, and each matches a warhammer from the base gam
 
 * Common Chair (similar to Iron Warhammer)
 * Wooden Chair (similar to Steel Warhammer)
-* Orcish Chair (similar to Orchish Warhammer)
+* Orcish Chair (similar to Orcish Warhammer)
 * Dwarven Chair (similar to Dwarven Warhammer)
 * Elven Chair (similar to Elven Warhammer)
 * Glass Throne (similar to Glass Warhammer)
@@ -109,7 +110,7 @@ Download and install with Vortex and the FOMOD installer will take care of the r
 
 ### Manual
 
-* Extract the 7z file using 7-Zip.
+* Extract the Zip file.
 * Copy the extracted `MarkekrausSentientChairsOfSkyrim.esp` and `MarkekrausSentientChairsOfSkyrim.bsa` files to the `data` folder under your Skyrim: Special Edition installation folder.
 * Enable the plugin using whatever method you usually use.
 

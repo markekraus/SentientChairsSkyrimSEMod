@@ -35,6 +35,10 @@ float Property StoredImmersiveWeaponsVersion = 0.0 Auto
 float Property StoredBaseLeveledListsVersion = 0.0 Auto
 float Property StoredValdacilsItemSortingVersion = 0.0 Auto
 
+Spell Property MEKSCOSSummonChairHorseSpell Auto
+ReferenceAlias Property Alias_Horse Auto
+Faction Property PlayerHorseFaction  Auto
+
 int ItemsAdded = 0
 int ItemsAttempted = 0
 string ImmersiveWeapons = "Immersive Weapons.esp"
@@ -57,6 +61,7 @@ Function Maintenance()
     UpdateBaseLeveledLists4_1()
     UpdateImmersvieWeapons4_1()
     UpdateValdacilsItemSorting4_1()
+    AddSummonHorseSpell()
     Debug.Trace("[SCOS] =================Maintenance End===================")
 EndFunction
 
@@ -353,4 +358,10 @@ Function UpdateValdacilsItemSorting4_1()
     RenameWeaponValdacilsItemSorting(MEKSCOSWeapOrcishChair01)
     RenameWeaponValdacilsItemSorting(MEKSCOSWeapWoodenChair01)
     Debug.Trace("[SCOS] Valdacil's Item Sorting Names Set")
+EndFunction
+
+Function AddSummonHorseSpell()
+    If (Alias_Horse.GetActorRef().IsInFaction(PlayerHorseFaction) && !Game.GetPlayer().HasSpell(MEKSCOSSummonChairHorseSpell))
+        Game.GetPlayer().AddSpell(MEKSCOSSummonChairHorseSpell)
+    EndIf
 EndFunction

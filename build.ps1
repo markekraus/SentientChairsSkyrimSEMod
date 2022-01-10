@@ -56,6 +56,8 @@ $XWmaEncodeCmd = Get-Command $XWmaEncodePath
 
 $Plugin = $Config.Plugin
 $PluginPath = Join-Path $BasePath $Plugin
+$BsaName = $Plugin -replace '\.esp$', '.bsa'
+$ZipName = $Plugin -replace '\.esp$', '.zip'
 
 $VoiceBasePath = Join-Path $BasePath 'Sound' 'Voice',$Plugin
 
@@ -69,7 +71,14 @@ VoiceBasePath:          $VoiceBasePath
 FuzExtractorPath:       $FuzExtractorPath
 XWmaEncodePath:         $XWmaEncodePath
 PluginPath:             $PluginPath
+BsaName:                $BsaName
+ZipName:                $ZipName
 "@
+
+if (Test-Path $ZipName) {
+    Write-Host "Deleting $ZipName"
+    Remove-Item -Force $ZipName
+}
 
 $PluginXmlTemplate = @'
 

@@ -33,19 +33,20 @@
                             <description>Installs script sources.</description>
                             <image path="logo.png" />
                             <files>
-                                <file source="source\scripts\MEKSCOSNoteTriggerQuest.psc" destination="source\scripts\MEKSCOSNoteTriggerQuest.psc" priority="0" />
-                                <file source="source\scripts\QF_MEKSCOSQuestSentientChair_06000A14.psc" destination="source\scripts\QF_MEKSCOSQuestSentientChair_06000A14.psc" priority="0" />
-                                <file source="source\scripts\MEKSCOSTIF__06000A05.psc" destination="source\scripts\MEKSCOSTIF__06000A05.psc" priority="0" />
-                                <file source="source\scripts\MEKSCOSTIF__06000884.psc" destination="source\scripts\MEKSCOSTIF__06000884.psc" priority="0" />
-                                <file source="source\scripts\MEKSCOSTIF__06000885.psc" destination="source\scripts\MEKSCOSTIF__06000885.psc" priority="0" />
-                                <file source="source\scripts\MEKSCOSTIF__06000886.psc" destination="source\scripts\MEKSCOSTIF__06000886.psc" priority="0" />
-                                <file source="source\scripts\MEKSCOSSnugglebottomsDeath.psc" destination="source\scripts\MEKSCOSSnugglebottomsDeath.psc" priority="0" />
-                                <file source="source\scripts\MEKSCOSMESetChairOutfitScript.psc" destination="source\scripts\MEKSCOSMESetChairOutfitScript.psc" priority="0" />
-                                <file source="source\scripts\MEKSCOSTIF__06000AA6.psc" destination="source\scripts\MEKSCOSTIF__06000AA6.psc" priority="0" />
-                                <file source="source\scripts\MEKSCOSTIF__06000AAA.psc" destination="source\scripts\MEKSCOSTIF__06000AAA.psc" priority="0" />
-                                <file source="source\scripts\MEKSCOSTIF__06000B32.psc" destination="source\scripts\MEKSCOSTIF__06000B32.psc" priority="0" />
-                                <file source="source\scripts\MEKSCOSModInitialization.psc" destination="source\scripts\MEKSCOSModInitialization.psc" priority="0" />
-                                <file source="source\scripts\MEKSCOSOnPlayerLoadGame.psc" destination="source\scripts\MEKSCOSOnPlayerLoadGame.psc" priority="0" />
+                                <file source="Source\Scripts\MEKSCOSMESetChairOutfitScript.psc" destination="Source\Scripts\MEKSCOSMESetChairOutfitScript.psc" priority="0" />
+                                <file source="Source\Scripts\MEKSCOSModInitialization.psc" destination="Source\Scripts\MEKSCOSModInitialization.psc" priority="0" />
+                                <file source="Source\Scripts\MEKSCOSNoteTriggerQuest.psc" destination="Source\Scripts\MEKSCOSNoteTriggerQuest.psc" priority="0" />
+                                <file source="Source\Scripts\MEKSCOSOnPlayerLoadGame.psc" destination="Source\Scripts\MEKSCOSOnPlayerLoadGame.psc" priority="0" />
+                                <file source="Source\Scripts\MEKSCOSSnugglebottomsDeath.psc" destination="Source\Scripts\MEKSCOSSnugglebottomsDeath.psc" priority="0" />
+                                <file source="Source\Scripts\MEKSCOSSummonChairHorse.psc" destination="Source\Scripts\MEKSCOSSummonChairHorse.psc" priority="0" />
+                                <file source="Source\Scripts\MEKSCOSTIF__06000884.psc" destination="Source\Scripts\MEKSCOSTIF__06000884.psc" priority="0" />
+                                <file source="Source\Scripts\MEKSCOSTIF__06000885.psc" destination="Source\Scripts\MEKSCOSTIF__06000885.psc" priority="0" />
+                                <file source="Source\Scripts\MEKSCOSTIF__06000886.psc" destination="Source\Scripts\MEKSCOSTIF__06000886.psc" priority="0" />
+                                <file source="Source\Scripts\MEKSCOSTIF__06000A05.psc" destination="Source\Scripts\MEKSCOSTIF__06000A05.psc" priority="0" />
+                                <file source="Source\Scripts\MEKSCOSTIF__06000AA6.psc" destination="Source\Scripts\MEKSCOSTIF__06000AA6.psc" priority="0" />
+                                <file source="Source\Scripts\MEKSCOSTIF__06000AAA.psc" destination="Source\Scripts\MEKSCOSTIF__06000AAA.psc" priority="0" />
+                                <file source="Source\Scripts\MEKSCOSTIF__06000B32.psc" destination="Source\Scripts\MEKSCOSTIF__06000B32.psc" priority="0" />
+                                <file source="Source\Scripts\QF_MEKSCOSQuestSentientChair_06000A14.psc" destination="Source\Scripts\QF_MEKSCOSQuestSentientChair_06000A14.psc" priority="0" />
                             </files>
                             <typeDescriptor> 
                                 <type name="Optional"/> 

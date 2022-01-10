@@ -11,6 +11,7 @@ Game.GetPlayer().RemoveItem(Gold001, horsecost.value as int)
 Alias_Horse.GetActorReference().SetFactionRank(PlayerHorseFaction, 1)
 Alias_Horse.GetActorRef().SetFactionOwner(PlayerFaction)
 PlayersHorse.ForceRefTo(Alias_Horse.GetActorRef())
+Game.GetPlayer().AddSpell(MEKSCOSSummonChairHorseSpell)
 game.IncrementStat( "Horses Owned" )
 ;END CODE
 EndFunction
@@ -29,3 +30,5 @@ Faction Property PlayerFaction  Auto
 ReferenceAlias Property PlayersHorse  Auto  
 
 GlobalVariable Property Horsecost  Auto  
+
+Spell Property MEKSCOSSummonChairHorseSpell Auto

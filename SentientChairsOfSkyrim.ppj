@@ -12,7 +12,7 @@
     <Variables>
         <!-- Set the name of your mod: -->
         <Variable Name="ModName" Value="MarkekrausSentientChairsOfSkyrim" />
-        <Variable Name="ModFolder" Value="D:\Modding\MO2\mods\Dev- Sentient Chairs of Skyrim" />
+        <Variable Name="ModFolder" Value="D:\Modding\MO2\mods\Dev - Sentient Chairs of Skyrim" />
     </Variables>
     <Imports>
         <Import>.\Source\Scripts</Import>
