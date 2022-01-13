@@ -35,7 +35,7 @@
     <ZipFile Name="@ModName" RootDir="." Compression="deflate" Output="@ModFolder">
         <Include NoRecurse="true">*.esp</Include>
         <Include NoRecurse="true">*.bsa</Include>
-        <Include NoRecurse="true">*.psc</Include>
+        <Include NoRecurse="false">*.psc</Include>
         <Include NoRecurse="true">fomod\info.xml</Include>
         <Include NoRecurse="true">fomod\ModuleConfig.xml</Include>
         <Include NoRecurse="true">logo.png</Include>

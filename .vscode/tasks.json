@@ -3,13 +3,26 @@
     "version": "2.0.0",
     "tasks": [
       {
+        "label": "Compile Papyrus Script",
+        "type": "process",
+        "command": "D:\\Steam\\steamapps\\common\\Skyrim Special Edition\\Papyrus Compiler\\PapyrusCompiler.exe",
+        "problemMatcher":"$PapyrusCompiler",
+        "args": [
+          "${relativeFile}",
+          "-i=Source\\Scripts;D:\\Steam\\steamapps\\common\\Skyrim Special Edition\\Data\\Source\\Scripts",
+          "-o=Scripts",
+          "-f=TESV_Papyrus_Flags.flg"
+        ],
+        "group": "build"
+      },
+      {
         "type": "pyro",
-        "projectFile": "SentientChairsOfSkyrim.ppj",
+        "projectFile": "MarkekrausSentientChairsOfSkyrim.ppj",
         "gamePath": "D:\\Steam\\steamapps\\common\\Skyrim Special Edition",
         "problemMatcher": [
           "$PapyrusCompiler"
         ],
-        "label": "pyro: Compile Project (skyrimse.ppj)",
+        "label": "pyro: Compile Project (MarkekrausSentientChairsOfSkyrim.ppj)",
         "group":{
           "kind": "build",
           "isDefault": true
@@ -21,6 +34,6 @@
         "type": "shell",
         "command": "./build.ps1",
         "group": "build"
-    }
+      }
     ]
 }
